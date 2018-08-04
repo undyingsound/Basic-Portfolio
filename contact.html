@@ -3,43 +3,53 @@
 
     <HEAD>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <!--Title on browser-->
         <Title>Contact Me</Title>
     </HEAD>
 
     <body>
+        <header>
+            <div class="inner">
+                <div class="logo">
+                    <span>Mike Reza</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">About</a>
+                        </li>
+                        <li class="divider">|</li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="divider">|</li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
 
-        <!--Name Header-->
-        <Header>Mike Reza</Header>
-
-        <!--Links to other pages-->
-        <nav>
-
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-
-        </nav>
         <!--Contact Me Section-->
         <section>
 
             <h1>Contact Me</h1>
-            <p>Name</p>
-            <textarea style="overflow:auto;resize:none"cols="100"></textarea>
-            <p>Email</p>
-            <textarea style="overflow:auto;resize:none"cols="100"></textarea>
-            <p>Message</p>
-            <textarea rows="10" cols="100"></textarea>
-            <br>
-            <button>Submit</button>
+            <hr width="920">
+            <div class="contactText">
 
+                <p>Name</p>
+                <textarea style="overflow:auto;resize:none" cols="150"></textarea>
+                <p>Email</p>
+                <textarea style="overflow:auto;resize:none" cols="150"></textarea>
+                <p>Message</p>
+                <textarea style="overflow:auto;resize:none" rows="10" cols="150"></textarea>
+                <button class="button">Submit</button>
+            </div>
         </section>
 
-        <!--Copyright-->
-        <footer>
-            <p>Copyright©</p>
-        </footer>
+        <!---Footer Section>-->
+        <footer>&copy; Copyright 2018</footer>
     </body>
 
     </html>
